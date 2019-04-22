@@ -6,7 +6,7 @@ Functional and Design Specification
 XML modeling of Command Line Interface (CLI)
 
 1.	Introduction
-The purpose of this document is to outline the design of a tool, which would help in simplifying the definition and design of command line interfaces. At present, every single command line interface is being coded individually and the CLI command handling and input validations are all done using code which is written separately for each option in the command line interface. 
+The purpose of this document is to outline the design of a tool, which would help in simplifying the definition and design of command line interfaces. At present, every command line interface is being coded individually and the CLI command handling and input validations are all done using code which is written separately for each option in the command line interface. 
 
 This tool is intended to reduce the amount of coding required each time a new command line tool is built and this tool also makes the CLI capable of reusing the command handling and validation code.
 
